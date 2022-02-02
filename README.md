@@ -1,4 +1,9 @@
-**Next.js:** Primeiro mergulho no framework
+**Next.js:** Primeiro mergulho no framework.
+
+Em modo DEV, sempre roda. A cada acesso. <br>
+**getServerSideProps:** Roda a cada acesso recebido.<br>
+**getStaticProps:** Roda somente em build time.
+
 
 ```
 npm install --global yarn
