@@ -15,3 +15,7 @@ yarn add next react react-dom
 ```
 npx gitignore node
 ```
+
+```
+npx http-server ./out -c-1
+```
