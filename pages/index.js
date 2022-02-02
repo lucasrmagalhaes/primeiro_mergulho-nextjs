@@ -1,32 +1,40 @@
-import React from 'react'
-import Link from '../src/components/Link'
 
-function Title({ children, as }) {
-    const Tag = as;
+import HomeScreen from '../src/screens/HomeScreen';
 
-    return (
-        <React.Fragment>
-            <Tag>
-                { children }
-            </Tag>
+export default HomeScreen;
 
-            <style jsx>{`
-                ${Tag} {
-                    color: red;
-                }
-            `}</style>
-        </React.Fragment>
-    )
-}
+// import React from 'react'
+// import Link from '../src/components/Link'
+// import Footer from '../src/components/patterns/Footer';
 
-export default function HomePage() {
-    return (
-        <div>
-            <Title as="h2">Alura Cases - Home</Title>
+// function Title({ children, as }) {
+//     const Tag = as;
 
-            <Link href="/faq">
-                Ir para a página do FAQ
-            </Link>
-        </div>
-    )
-}
+//     return (
+//         <React.Fragment>
+//             <Tag>
+//                 { children }
+//             </Tag>
+
+//             <style jsx>{`
+//                 ${Tag} {
+//                     color: red;
+//                 }
+//             `}</style>
+//         </React.Fragment>
+//     )
+// }
+
+// export default function HomePage() {
+//     return (
+//         <div>
+//             <Title as="h2">Alura Cases - Home</Title>
+
+//             <Link href="/faq">
+//                 Ir para a página do FAQ
+//             </Link>
+
+//             <Footer />
+//         </div>
+//     )
+// }
